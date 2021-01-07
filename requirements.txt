@@ -242,4 +242,4 @@ python-language-server==0.31.7
 # zipp==2.2.0
 #gunicorn==2.8.6
 django-heroku==0.3.1
-psycopg2==2.8.6
+#psycopg2==2.8.6
