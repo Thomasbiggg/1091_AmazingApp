@@ -240,5 +240,5 @@ xmltodict==0.12.0
 yapf==0.28.0
 zict==1.0.0
 zipp==2.2.0
-gunicorn==2.8.6
+#gunicorn==2.8.6
 django-heroku==0.3.1
