@@ -174,19 +174,6 @@
                 purchaseInfo.forEach(element1 => {
                     var currCId = element1.CustomerID;
                     var currPId = element1.ProductID;
-                    // if(pro_id==element.ProductID){
-                    //     quantity = element.PurchaseQuantity
-                    //     price = element.PurchasePrice;
-                    // }if (quantity <= 5) {
-                    //     price = price * 0.95;
-                    //     range = '0 ~ 50';
-                    // } else if (quantity <= 10) {
-                    //     price = price * 0.87;
-                    //     range = '51 ~ 100';
-                    // } else {
-                    //     price = price * 0.75;
-                    //     range = '100 up';
-                    // }
                     customerList.forEach(element2 => {
                         if (element2.CustomerID == currCId){
                             customerName = element2.CustomerName;
@@ -203,19 +190,9 @@
                                 '<td>' + element1.Comment + '</td>' +
                                 '</tr>');
                     }
-                    // table.row.add([customerName, element.Date, quantity,range,price]).draw();
-                    // var dataTable =
-                    //     ('<tr>' +
-                    //         '<td>' + customerName + '</td>' +
-                    //         '<td>' + element.Date + '</td>' +
-                    //         '<td>' + quantity + '</td>' +
-                    //         '<td>' + range + '</td>' +
-                    //         '<td>' + price + '</td>' +
-                    //     '</tr>');
-                    
+
                 });
-            //console.log(dataTable);
-            //$('#tbody1').append(dataTable);
+
             }
             
         
